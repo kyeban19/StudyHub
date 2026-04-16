@@ -1,0 +1,62 @@
+.video-room-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.video-header {
+  margin-bottom: 2rem;
+}
+
+.video-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.video-header p {
+  color: var(--text-secondary);
+}
+
+.room-controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.room-input {
+  flex: 1;
+  max-width: 400px;
+}
+
+.jitsi-container {
+  flex: 1;
+  min-height: 500px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  background-color: var(--bg-tertiary);
+}
+
+.empty-room-state {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  gap: 1rem;
+}
+
+.video-icon-large {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: rgba(88, 166, 255, 0.1);
+  color: var(--accent-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
